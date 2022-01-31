@@ -5,12 +5,14 @@ import {AppComponent} from './app.component';
 import {CounterComponent} from "./counter/counter.component";
 import {FormsModule} from "@angular/forms";
 import {PostsComponent} from "./posts/posts.component";
+import { RoutingComponent } from './routing/routing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    PostsComponent
+    PostsComponent,
+    RoutingComponent
   ],
   imports: [
     BrowserModule,
